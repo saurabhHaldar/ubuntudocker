@@ -1,1 +1,6 @@
-test
+services:
+    web:
+        image: httpd
+
+    database:
+        image: mysql
